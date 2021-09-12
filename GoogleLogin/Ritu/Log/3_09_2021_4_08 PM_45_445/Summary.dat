@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="90"/>
+						<Prp name="name" type="S" value="The Tafe Beta Server is running"/>
+						<Prp name="starttime" type="D" value="44442.6729419907"/>
+						<Prp name="durationwithoutchildren" type="I" value="90"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADkARgA3AEEAQQA2ADUALQAyADYAQwBDAC0ANAA4ADgANgAtAEIANQAwADYALQA3ADAAQgBEAEUANwA2ADYAMABFADEAQQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="90"/>
+				<Prp name="name" type="S" value="Ritu"/>
+				<Prp name="starttime" type="D" value="44442.6729419907"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="44442.6728430671"/>
+		<Prp name="host" type="S" value="DESKTOP-CG5M29G"/>
+		<Prp name="name" type="S" value="Ritu"/>
+		<Prp name="testname" type="S" value="The Tafe Beta Server is running"/>
+		<Prp name="key" type="S" value="{1164D4D4-1B9C-4A4D-A088-4F71EA733DE7}"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="user" type="S" value="Rits"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44442.6729505324"/>
+	</Node>
+</Nodes>

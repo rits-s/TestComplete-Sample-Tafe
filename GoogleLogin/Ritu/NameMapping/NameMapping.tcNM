@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{0AE6AA71-850E-4218-9313-FA029B79673F}">
+				<TypeInfo Item0="{511F8DA7-E038-4C57-B848-3E1E11E30F77}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{E61A1F77-D4DC-4B47-923D-E4A1CE93D1D2}">
+						<TypeInfo Item0="{49825258-E00E-4D1F-BCE7-C4DE095128EF}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="tafeHomePage" Key="{CDB39173-2CBE-46E7-8DFE-CBACFF4C8234}">
+								<Image FileName="-47846132" Left="11" Top="165" Right="1931" Bottom="1030" />
+								<TypeInfo Item0="{2A98D1CF-F24C-4F38-87A0-930FF2AB68D3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://beta.tafensw.edu.au/" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{E61A1F77-D4DC-4B47-923D-E4A1CE93D1D2}">
+			<Child Name="tafeHomePage" Owner="{CDB39173-2CBE-46E7-8DFE-CBACFF4C8234}" />
+		</Child>
+	</LogicalNodes>
+</Root>

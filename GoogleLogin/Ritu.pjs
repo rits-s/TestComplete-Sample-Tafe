@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{5563B103-DD6D-4D70-A912-495C35A89D60}">
+	<children>
+		<child name="Ritu" key="{9EBF5A19-C511-4555-9E84-D666FA0C99B1}" path="Ritu\Ritu.mds" />
+		<child name="SampleTafe" key="{B5F0F232-D812-4A1A-9339-AB199645D159}" path="..\SampleTafe\SampleTafe.mds" />
+	</children>
+	<testItems key="{FF75B4A0-000F-4D8A-B43E-B1145E716BF8}">
+		<children>
+			<testItem key="{9EBF5A19-C511-4555-9E84-D666FA0C99B1}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{B5F0F232-D812-4A1A-9339-AB199645D159}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{BA55E3F1-8372-4D9E-AAD1-24492937DAB8}" />
+	<analysis key="{B105E728-7455-4D72-B280-EDA812B7E67F}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

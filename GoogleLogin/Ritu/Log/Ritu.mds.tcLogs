@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44442.596048831"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9E6F7481-7B2F-47B5-94BC-4EAD8F37B50F}"/>
+				<Prp name="nameofroot" type="S" value="The Tafe Beta Server is running"/>
+				<Prp name="relpath" type="S" value="3_09_2021_2_18 PM_18_619\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44442.6008783102"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{612E300F-B9DA-42BC-BAAE-7A46BBD377E8}"/>
+				<Prp name="nameofroot" type="S" value="The Tafe Beta Server is running"/>
+				<Prp name="relpath" type="S" value="3_09_2021_2_25 PM_15_886\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44442.6010586458"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2CE90346-DBF2-4CC1-A6B9-DA3A64051D16}"/>
+				<Prp name="nameofroot" type="S" value="The Tafe Beta Server is running"/>
+				<Prp name="relpath" type="S" value="3_09_2021_2_25 PM_31_467\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44442.6708822685"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A61694F4-68C2-4BFF-B5BA-A929117F8C67}"/>
+				<Prp name="nameofroot" type="S" value="The Tafe Beta Server is running"/>
+				<Prp name="relpath" type="S" value="3_09_2021_4_06 PM_04_228\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44442.6727481944"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8255CD9D-7CF8-4510-AC81-EEF60126135B}"/>
+				<Prp name="nameofroot" type="S" value="The Tafe Beta Server is running"/>
+				<Prp name="relpath" type="S" value="3_09_2021_4_08 PM_45_445\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>
